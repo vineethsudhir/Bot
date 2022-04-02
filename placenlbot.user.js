@@ -108,7 +108,7 @@ async function attemptPlace() {
 }
 
 function updateOrders() {
-	fetch('https://trafficconegod.github.io/Bot/orders.json').then(async (response) => {
+	fetch('https://github.com/vineethsudhir/Bot/blob/master/orders.json').then(async (response) => {
 		if (!response.ok) return console.warn('Kan orders niet ophalen! (non-ok status code)');
 		const data = await response.json();
 
